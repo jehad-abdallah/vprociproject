@@ -18,7 +18,6 @@ sudo update-alternatives --config java
 
 java -version
 
-
 sudo apt update
 wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
 
