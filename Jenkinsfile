@@ -3,7 +3,7 @@ def COLOR_MAP = [
     'FAILURE': 'danger',
 ]
 pipeline {
-    
+
 	agent any
     tools {
         maven "MAVEN3"
@@ -97,6 +97,7 @@ pipeline {
             }
         }
     }
+    
     post {
         always {
             echo 'Slack Notifications.'
